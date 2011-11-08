@@ -2,6 +2,15 @@ phonegap-videoplayer-plugin
 =======
 Phonegap plugin that use iOS's MPMoviePlayerController to play video.
 
+Usage
+=======
+![screen 1](http://eiffelqiu.github.com/phonegap-videoplayer-plugin/1.jpg)
+![screen 2](http://eiffelqiu.github.com/phonegap-videoplayer-plugin/2.jpg)
+![screen 3](http://eiffelqiu.github.com/phonegap-videoplayer-plugin/3.jpg)
+![screen 4](http://eiffelqiu.github.com/phonegap-videoplayer-plugin/4.jpg)
+
+Usage:
+-------
   $ open phonegap-videoplayer-plugin.xcodeproj
 
 Xcode build and run
