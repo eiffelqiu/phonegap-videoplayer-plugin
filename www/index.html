@@ -56,6 +56,13 @@
 //		navigator.notification.alert("PhoneGap is working")
         }
 
+        function videoplayerCallBack(param) {
+            if (param == 'finish') 
+//                navigator.notification.alert(param);
+                $('#status').html("finish");
+            else
+                $('#status').html("stop");
+        }
 
         function showVideo(movieName) {
             vp.show(movieName);
@@ -110,7 +117,6 @@
         <ul class="rounded">
             <li>
                 <button onclick="showVideo('http://easyhtml5video.com/images/happyfit2.mp4')">play</button>
-                
             </li>
         </ul>
     </div>    

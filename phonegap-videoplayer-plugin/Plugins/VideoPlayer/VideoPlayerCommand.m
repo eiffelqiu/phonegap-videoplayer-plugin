@@ -55,7 +55,7 @@
                                                   object:nil];
     [player stop];
     [player.view removeFromSuperview];
-    [self writeJavascript:@"navigator.notification.alert('Play done'); document.getElementById('status').innerHTML='Finish Playing';"];
+    [self writeJavascript:@"videoplayerCallBack('finish');"];
 
 }
 
@@ -65,7 +65,7 @@
                                                   object:nil];
     [player stop];
     [player.view removeFromSuperview];
-    [self writeJavascript:@"document.getElementById('status').innerHTML='Stop Playing';"];
+    [self writeJavascript:@"videoplayerCallBack('stop');"];
 
 }
 
