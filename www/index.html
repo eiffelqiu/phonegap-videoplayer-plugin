@@ -82,9 +82,11 @@
         $(function() {
             // Custom Javascript (onReady)
             $('#play1').click(function($) {
+                navigator.orientation.setOrientation('left');
                 showVideo('movie.mp4');
             });
             $('#play2').click(function($) {
+                navigator.orientation.setOrientation('left');
                 showVideo('http://easyhtml5video.com/images/happyfit2.mp4');
             });
         });
@@ -100,10 +102,10 @@
             <h1>Video List</h1>
         </div>
         <ul class="rounded">
-            <li><a href="#video1" class="pop">Local Video</a></li>
+            <li><a href="#video1" class="pop">Local Video</a> <small class="counter">1</small> </li>
         </ul>
         <ul class="rounded">
-            <li><a href="#video2" class="swap">Remote Video</a></li>
+            <li><a href="#video2" class="swap">Remote Video</a> <small class="counter">1</small> </li>
         </ul>
     </div>
     <div id="video1" class="notransform">

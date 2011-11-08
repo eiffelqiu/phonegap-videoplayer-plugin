@@ -21,7 +21,6 @@
 
 - (void)show:(NSMutableArray *)arguments withDict:(NSMutableDictionary *)options {
     NSString *movie = [arguments objectAtIndex:0];
-    
     NSRange range = [movie rangeOfString:@"http"];
     if(range.length > 0) {
         NSLog(@"%@",movie);
