@@ -21,20 +21,32 @@
 
 - (void)show:(NSMutableArray *)arguments withDict:(NSMutableDictionary *)options {
     NSString *movie = [arguments objectAtIndex:0];
-    NSString *soundFilePath = [[NSBundle mainBundle] pathForResource:movie ofType:@"mp4"];
-    NSURL *fileURL = [[NSURL fileURLWithPath:soundFilePath] retain];
-    player = [[MPMoviePlayerController alloc] initWithContentURL:fileURL];
-    player.fullscreen = YES;
-    player.scalingMode = MPMovieScalingModeAspectFill;
-    player.controlStyle = MPMovieControlStyleEmbedded;
-    [[UIApplication sharedApplication] setStatusBarOrientation:UIInterfaceOrientationPortrait animated:NO];
-    PhoneGapViewController *cont = (PhoneGapViewController *) [super appViewController];
-    [player.view setFrame:cont.view.bounds];
-    [cont.view addSubview:player.view];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(MovieDidExit:) name:MPMoviePlayerDidExitFullscreenNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(MovieDidFinish:) name:MPMoviePlayerPlaybackDidFinishNotification object:nil];
-    [fileURL release];
-    [player play];
+    
+    NSRange range = [movie rangeOfString:@"http"];
+    if(range.length > 0) {
+        NSLog(@"%@",movie);
+        player = [[MPMoviePlayerController alloc] initWithContentURL:[NSURL URLWithString:movie]];        
+    } else {
+        NSArray *fileNameArr = [movie componentsSeparatedByString:@"."];
+        NSString *prefix = [fileNameArr objectAtIndex:0];
+        NSString *suffix = [fileNameArr objectAtIndex:1];
+        NSString *soundFilePath = [[NSBundle mainBundle] pathForResource:prefix ofType:suffix];
+        NSURL *fileURL = [NSURL fileURLWithPath:soundFilePath];
+        player = [[MPMoviePlayerController alloc] initWithContentURL:fileURL];        
+    }
+
+    if (player) {
+        player.fullscreen = YES;
+        player.scalingMode = MPMovieScalingModeAspectFill;
+        player.controlStyle = MPMovieControlStyleEmbedded;
+        [[UIApplication sharedApplication] setStatusBarOrientation:UIInterfaceOrientationPortrait animated:NO];
+        PhoneGapViewController *cont = (PhoneGapViewController *) [super appViewController];
+        [player.view setFrame:cont.view.bounds];
+        [cont.view addSubview:player.view];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(MovieDidExit:) name:MPMoviePlayerDidExitFullscreenNotification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(MovieDidFinish:) name:MPMoviePlayerPlaybackDidFinishNotification object:nil];
+        [player play];
+    }
 }
 
 - (void)MovieDidFinish:(NSNotification *)notification {

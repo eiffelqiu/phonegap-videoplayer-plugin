@@ -85,20 +85,34 @@
             <h1 >Video List</h1>
         </div>
         <ul class="rounded">
-            <li><a href="#video">Video 1</a></li>
+            <li><a href="#video1">Video 1</a></li>
         </ul>
+        <ul class="rounded">
+            <li><a href="#video2">Video 2</a></li>
+        </ul>        
     </div>
-    <div id="video" class="notransform">
+    <div id="video1" class="notransform">
         <div class="toolbar">
-            <h1 id="status">Video</h1>
+            <h1 id="status">Video 1</h1>
             <a href="#" class="back">Back</a>
         </div>
         <ul class="rounded">
             <li>
-                <button onclick="showVideo('movie')">play video</button>
+                <button onclick="showVideo('movie.mp4')">play</button>
             </li>
         </ul>
     </div>
+    <div id="video2" class="notransform">
+        <div class="toolbar">
+            <h1 id="status">Video 2</h1>
+            <a href="#" class="back">Back</a>
+        </div>
+        <ul class="rounded">
+            <li>
+                <button onclick="showVideo('http://video-js.zencoder.com/oceans-clip.mp4')">play</button>
+            </li>
+        </ul>
+    </div>    
 </div>
 
 </body>
