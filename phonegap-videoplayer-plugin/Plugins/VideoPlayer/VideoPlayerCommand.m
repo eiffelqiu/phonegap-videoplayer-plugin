@@ -20,7 +20,8 @@
 @implementation VideoPlayerCommand
 
 - (void)show:(NSMutableArray *)arguments withDict:(NSMutableDictionary *)options {
-    NSString *soundFilePath = [[NSBundle mainBundle] pathForResource:@"movie" ofType:@"mp4"];
+    NSString *movie = [arguments objectAtIndex:0];
+    NSString *soundFilePath = [[NSBundle mainBundle] pathForResource:movie ofType:@"mp4"];
     NSURL *fileURL = [[NSURL fileURLWithPath:soundFilePath] retain];
     player = [[MPMoviePlayerController alloc] initWithContentURL:fileURL];
     player.fullscreen = YES;
