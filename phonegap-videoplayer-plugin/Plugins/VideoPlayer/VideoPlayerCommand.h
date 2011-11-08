@@ -7,8 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+
 #ifdef PHONEGAP_FRAMEWORK
+
 #import <PhoneGap/PhoneGapDelegate.h>
+
 #else
 #import "PhoneGapDelegate.h"
 #endif
@@ -17,9 +20,9 @@
 #import "MediaPlayer/MPMoviePlayerController.h"
 
 @interface VideoPlayerCommand : PGPlugin {
-    MPMoviePlayerController *player; 
+    MPMoviePlayerController *player;
 }
 
-- (void) show:(NSMutableArray*)arguments withDict:(NSMutableDictionary*)options;
+- (void)show:(NSMutableArray *)arguments withDict:(NSMutableDictionary *)options;
 
 @end

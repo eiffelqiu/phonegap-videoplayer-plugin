@@ -1,69 +1,105 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <title></title>
-  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
-	<meta charset="utf-8">
+<head>
+    <title></title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;"/>
+    <meta charset="utf-8">
 
-	<!-- iPad/iPhone specific css below, add after your main css >
-	<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="ipad.css" type="text/css" />		
-	<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="iphone.css" type="text/css" />		
-	-->
-	<!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js from http://www.JSON.org/json2.js into your www directory and include it here -->
-	<script type="text/javascript" charset="utf-8" src="phonegap-1.1.0.js"></script>
-    <script type="text/javascript" charset="utf-8" src="ActivityIndicator.js"></script> 
-    <script type="text/javascript" charset="utf-8" src="VideoPlayer.js"></script> 
-        
+    <!-- iPad/iPhone specific css below, add after your main css >
+     <link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="ipad.css" type="text/css" />
+     <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="iphone.css" type="text/css" />
+     -->
+    <!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js from http://www.JSON.org/json2.js into your www directory and include it here -->
+
+    <style type="text/css" media="screen">@import "jqtouch/jqtouch.css";</style>
+    <style type="text/css" media="screen">@import "themes/jqt/theme.css";</style>
+    <script src="jqtouch/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="jqtouch/jqtouch.js" type="application/x-javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8" src="js/spine.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/phonegap-1.1.0.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/VideoPlayer.js"></script>
+
     <script type="text/javascript">
 
 
-	// If you want to prevent dragging, uncomment this section
-	/*
-	function preventBehavior(e) 
-	{ 
-      e.preventDefault(); 
-    };
-	document.addEventListener("touchmove", preventBehavior, false);
-	*/
-	
-	/* If you are supporting your own protocol, the var invokeString will contain any arguments to the app launch.
-	see http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
-	for more details -jm */
-	/*
-	function handleOpenURL(url)
-	{
-		// TODO: do something with the url passed in.
-	}
-	*/
-    var vp;
-	function onBodyLoad()
-	{		
-		document.addEventListener("deviceready", onDeviceReady, false);
-	}
-	
-	/* When this function is called, PhoneGap has been initialized and is ready to roll */
-	/* If you are supporting your own protocol, the var invokeString will contain any arguments to the app launch.
-	see http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
-	for more details -jm */
-	function onDeviceReady()
-	{
-		// do your thing!
-        vp = window.plugins.videoPlayer;
+        // If you want to prevent dragging, uncomment this section
+        /*
+         function preventBehavior(e)
+         {
+         e.preventDefault();
+         };
+         document.addEventListener("touchmove", preventBehavior, false);
+         */
+
+        /* If you are supporting your own protocol, the var invokeString will contain any arguments to the app launch.
+         see http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
+         for more details -jm */
+        /*
+         function handleOpenURL(url)
+         {
+         // TODO: do something with the url passed in.
+         }
+         */
+        var vp;
+        function onBodyLoad() {
+            document.addEventListener("deviceready", onDeviceReady, false);
+        }
+
+        /* When this function is called, PhoneGap has been initialized and is ready to roll */
+        /* If you are supporting your own protocol, the var invokeString will contain any arguments to the app launch.
+         see http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
+         for more details -jm */
+        function onDeviceReady() {
+            // do your thing!
+            vp = window.plugins.videoPlayer;
 //		navigator.notification.alert("PhoneGap is working")
-	}
-        
-        
-    function showVideo()
-    {
-        vp.show();                
-    }        
-     
+        }
+
+
+        function showVideo() {
+            vp.show();
+        }
+
     </script>
-  </head>
-  <body onload="onBodyLoad()">
-    <button onclick="showVideo()">play video</button> <br>
-      <div id="status">Click Play Video Button</div>
-  </body>
+    <script type="text/javascript" charset="utf-8">
+        var jQT = new $.jQTouch({
+            icon:'jqtouch.png',
+            addGlossToIcon:false,
+            startupScreen:'jqt_startup.png',
+            statusBar:'black'
+        });
+
+        $(function() {
+            // Custom Javascript (onReady)
+        });
+    </script>
+    <style type="text/css" media="screen">
+            /* Custom Style */
+    </style>
+</head>
+<body onload="onBodyLoad()">
+<div id="jqt">
+    <div id="start">
+        <div class="toolbar">
+            <h1 >Video List</h1>
+        </div>
+        <ul class="rounded">
+            <li><a href="#video">Video 1</a></li>
+        </ul>
+    </div>
+    <div id="video" class="notransform">
+        <div class="toolbar">
+            <h1 id="status">Video</h1>
+            <a href="#" class="back">Back</a>
+        </div>
+        <ul class="rounded">
+            <li>
+                <button onclick="showVideo()">play video</button>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</body>
 </html>

@@ -7,15 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+
 #ifdef PHONEGAP_FRAMEWORK
-	#import <PhoneGap/PhoneGapDelegate.h>
+
+#import <PhoneGap/PhoneGapDelegate.h>
+
 #else
 	#import "PhoneGapDelegate.h"
 #endif
 
 @interface AppDelegate : PhoneGapDelegate {
 
-	NSString* invokeString;
+    NSString *invokeString;
 }
 
 // invoke string is passed to your app on launch, this is only valid if you 
@@ -23,7 +26,7 @@
 // a simple tutorial can be found here : 
 // http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
 
-@property (copy)  NSString* invokeString;
+@property(copy) NSString *invokeString;
 
 @end
 
