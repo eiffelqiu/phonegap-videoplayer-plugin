@@ -1,0 +1,628 @@
+Tphonegap-videoplayer-plugin
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Info.plist phonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Info.plist
+cProcessPCH /var/folders/zx/_7yc7x7s7pg90vwyyg0q08pw0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/phonegap-videoplayer-plugin-Prefix-dupniqapajowpjfigsyzsoqmxjwt/phonegap-videoplayer-plugin-Prefix.pch.gch phonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/main.o /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/AppDelegate.o /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/VideoPlayerCommand.o /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Plugins/VideoPlayer/VideoPlayerCommand.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/phonegap-videoplayer-plugin normal i386
+cGenerateDSYMFile /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app.dSYM /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/phonegap-videoplayer-plugin
+cCopyStringsFile /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/en.lproj/InfoPlist.strings phonegap-videoplayer-plugin/en.lproj/InfoPlist.strings
+cCopyStringsFile /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/en.lproj/Localizable.strings phonegap-videoplayer-plugin/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/es.lproj/Localizable.strings phonegap-videoplayer-plugin/Resources/es.lproj/Localizable.strings
+cCpResource phonegap-videoplayer-plugin/Resources/icons/icon.png build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon.png
+cCpResource phonegap-videoplayer-plugin/Resources/icons/icon@2x.png build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon@2x.png
+cCpResource phonegap-videoplayer-plugin/Resources/icons/icon-72.png build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon-72.png
+cCpResource phonegap-videoplayer-plugin/Resources/splash/Default.png build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Default.png
+cCpResource phonegap-videoplayer-plugin/Resources/splash/Default@2x.png build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Default@2x.png
+cCpResource phonegap-videoplayer-plugin/Resources/Capture.bundle build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Capture.bundle
+cCopyPlistFile /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/PhoneGap.plist phonegap-videoplayer-plugin/PhoneGap.plist
+cCpResource www build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/www
+cCpResource movie.mp4 build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/movie.mp4
+cGenerateDSYMFile /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app.dSYM /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/phonegap-videoplayer-plugin
+cPhaseScriptExecution "Run Script" /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Script-C5FFCDDE1468D78B00EEC030.sh
+cTouch /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004EA4E5A50000000000000110
+t1319429541
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004E7806CF000000000018D430
+t1316488911
+s1627184
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004E78054400000000000954B0
+t1316488516
+s611504
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004E7807950000000000169840
+t1316489109
+s1480768
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004E72F1F200000000002F4210
+t1316155890
+s3097104
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F1CC0000000000245480
+t1316155852
+s2380928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004E78059F00000000000859A0
+t1316488607
+s547232
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004E780641000000000006B1C0
+t1316488769
+s438720
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F2960000000000353830
+t1316156054
+s3487792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004E72F28F0000000000001534
+t1316156047
+s5428
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MPMoviePlayerController.h
+c000000004E7808AA00000000000049D2
+t1316489386
+s18898
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004E7808D3000000000023A3F0
+t1316489427
+s2335728
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004E72F3C800000000000998C0
+t1316156360
+s628928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004E72F69C00000000001A9D20
+t1316157084
+s1744160
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004E72F177000000000006C8A0
+t1316155767
+s444576
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004E78066A0000000000000BCB
+t1316488810
+s3019
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7806AB00000000008F7390
+t1316488875
+s9401232
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/JSON.h
+c000000004E8C890000000000000008F9
+t1317832960
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/NSMutableArray+QueueAdditions.h
+c000000004E8C89000000000000000113
+t1317832960
+s275
+i<Foundation/Foundation.h>
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/NSObject+SBJSON.h
+c000000004E8C89000000000000000A01
+t1317832960
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/NSString+SBJSON.h
+c000000004E8C89000000000000000916
+t1317832960
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/PGPlugin.h
+c000000004E8C8900000000000000078E
+t1317832960
+s1934
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"PluginResult.h"
+i"NSMutableArray+QueueAdditions.h"
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/PhoneGapDelegate.h
+c000000004E8C89000000000000000815
+t1317832960
+s2069
+i<UIKit/UIKit.h>
+i"JSON.h"
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/PhoneGapViewController.h
+c000000004E8C890000000000000001D8
+t1317832960
+s472
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/PluginResult.h
+c000000004E8C89000000000000000A65
+t1317832960
+s2661
+i<Foundation/Foundation.h>
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/SBJSON.h
+c000000004E8C89000000000000000AFF
+t1317832960
+s2815
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/SBJsonBase.h
+c000000004E8C89000000000000000B85
+t1317832960
+s2949
+i<Foundation/Foundation.h>
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/SBJsonParser.h
+c000000004E8C89000000000000000C1A
+t1317832960
+s3098
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/SBJsonWriter.h
+c000000004E8C89000000000000001152
+t1317832960
+s4434
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/PhoneGap
+c000000004E8C8900000000000014790B
+t1317832960
+s1341707
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app.dSYM
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Capture.bundle
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Default.png
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Default@2x.png
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Info.plist
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/PhoneGap.plist
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/PkgInfo
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon-72.png
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon.png
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon@2x.png
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/movie.mp4
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/phonegap-videoplayer-plugin
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/www
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/VideoPlayerCommand.o
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/phonegap-videoplayer-plugin.LinkFileList
+c000000004EB8AE5A0000000000000210
+t1320726106
+s528
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Script-C5FFCDDE1468D78B00EEC030.sh
+c000000004EB8AE5A000000000000030C
+t1320726106
+s780
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/movie.mp4
+c000000004E3A5077000000000026E5DB
+t1312444535
+s2549211
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Classes/AppDelegate.h
+c000000004EB8A00B00000000000002B3
+t1320722443
+s691
+i<UIKit/UIKit.h>
+i<PhoneGap/PhoneGapDelegate.h>
+i"PhoneGapDelegate.h"
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Classes/AppDelegate.m
+c000000004EB8A00B0000000000000D5B
+t1320722443
+s3419
+i"AppDelegate.h"
+i<PhoneGap/PhoneGapViewController.h>
+i"PhoneGapViewController.h"
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/PhoneGap.plist
+c000000004EB8A204000000000000060B
+t1320722948
+s1547
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Plugins/VideoPlayer/VideoPlayerCommand.h
+c000000004EB88D7F0000000000000229
+t1320717695
+s553
+i<Foundation/Foundation.h>
+i<PhoneGap/PhoneGapDelegate.h>
+i"PhoneGapDelegate.h"
+i<PhoneGap/PGPlugin.h>
+i"MediaPlayer/MPMoviePlayerController.h"
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Plugins/VideoPlayer/VideoPlayerCommand.m
+c000000004EB8AE48000000000000076C
+t1320726088
+s1900
+i"VideoPlayerCommand.h"
+i"MediaPlayer/MPMoviePlayerController.h"
+i<PhoneGap/PhoneGapViewController.h>
+i"PhoneGapViewController.h"
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Resources/Capture.bundle
+c000000004EB8A00B0000000000000242
+t1320722443
+s578
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Resources/en.lproj/Localizable.strings
+c000000004EB8A00B0000000000000248
+t1320722443
+s584
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Resources/es.lproj/Localizable.strings
+c000000004EB8A00B0000000000000254
+t1320722443
+s596
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Resources/icons/icon-72.png
+c000000004E8C88DD00000000000013B9
+t1317832925
+s5049
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Resources/icons/icon.png
+c000000004E8C88DD0000000000000C36
+t1317832925
+s3126
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Resources/icons/icon@2x.png
+c000000004E8C88DD00000000000014DC
+t1317832925
+s5340
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Resources/splash/Default.png
+c000000004E8C88DD00000000000033AA
+t1317832925
+s13226
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Resources/splash/Default@2x.png
+c000000004E8C88DD0000000000007F9A
+t1317832925
+s32666
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/en.lproj/InfoPlist.strings
+c000000004EB8A00B000000000000002D
+t1320722443
+s45
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/main.m
+c000000004EB8A00B0000000000000185
+t1320722443
+s389
+i<UIKit/UIKit.h>
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Prefix.pch
+c000000004EB8A00B00000000000000B9
+t1320722443
+s185
+i<UIKit/UIKit.h>
+
+N/Users/eiffel/src/phonegap-videoplayer-plugin/www
+c000000004EB8AE250000000000000110
+t1320726053
+s272
+
+N/var/folders/zx/_7yc7x7s7pg90vwyyg0q08pw0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/phonegap-videoplayer-plugin-Prefix-dupniqapajowpjfigsyzsoqmxjwt/phonegap-videoplayer-plugin-Prefix.pch.gch
+t2
+s0
+
+Nphonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Info.plist
+c000000004EB8A07B00000000000005DD
+t1320722555
+s1501
+
+CBuild AST from /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Classes/AppDelegate.m
+r0
+
+CBuild AST from /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Plugins/VideoPlayer/VideoPlayerCommand.m
+r0
+
+CBuild AST from /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies72535fdae568b441^085582dae568b441^-171"[WARN]warning: no rule to process file '$(PROJECT_DIR)/phonegap-videoplayer-plugin/Plugins/VideoPlayer/VideoPlayer.js' of type sourcecode.javascript for architecture i3861(21%IDEActivityLogMessage2@164"warning: no rule to process file '$(PROJECT_DIR)/phonegap-videoplayer-plugin/Plugins/VideoPlayer/VideoPlayer.js' of type sourcecode.javascript for architecture i386-342418906#18446744073709551615#0#-1#-----0#1#0#--18"Check dependencies36"2A3F7997-0732-421D-85EE-C1BAB3FE318B-
+
+CCompileC build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/AppDelegate.o /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s342418907.407823
+e342418907.586046
+r1
+xCompileC
+xbuild/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/AppDelegate.o
+x/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Classes/AppDelegate.m13436adbe568b441^0c0796dbe568b441^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Classes/AppDelegate.m0000000000000000^2271"CompileC build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/AppDelegate.o phonegap-videoplayer-plugin/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DPHONEGAP_FRAMEWORK=YES -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -I/Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/phonegap-videoplayer-plugin.hmap -I/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/include -I/Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/DerivedSources/i386 -I/Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/DerivedSources -F/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator -F/Users/Shared/PhoneGap/Frameworks -include /var/folders/zx/_7yc7x7s7pg90vwyyg0q08pw0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/phonegap-videoplayer-plugin-Prefix-dupniqapajowpjfigsyzsoqmxjwt/phonegap-videoplayer-plugin-Prefix.pch -c /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Classes/AppDelegate.m -o /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/AppDelegate.o36"ACB334EE-64DE-4A5C-82F1-9F36F178D702-
+
+CCompileC build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/VideoPlayerCommand.o /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Plugins/VideoPlayer/VideoPlayerCommand.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s342418907.414709
+e342418907.538126
+r1
+xCompileC
+xbuild/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/VideoPlayerCommand.o
+x/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Plugins/VideoPlayer/VideoPlayerCommand.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Plugins/VideoPlayer/VideoPlayerCommand.mde5a6adbe568b441^94c189dbe568b441^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Plugins/VideoPlayer/VideoPlayerCommand.m0000000000000000^2323"CompileC build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/VideoPlayerCommand.o phonegap-videoplayer-plugin/Plugins/VideoPlayer/VideoPlayerCommand.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DPHONEGAP_FRAMEWORK=YES -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -I/Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/phonegap-videoplayer-plugin.hmap -I/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/include -I/Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/DerivedSources/i386 -I/Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/DerivedSources -F/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator -F/Users/Shared/PhoneGap/Frameworks -include /var/folders/zx/_7yc7x7s7pg90vwyyg0q08pw0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/phonegap-videoplayer-plugin-Prefix-dupniqapajowpjfigsyzsoqmxjwt/phonegap-videoplayer-plugin-Prefix.pch -c /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Plugins/VideoPlayer/VideoPlayerCommand.m -o /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/VideoPlayerCommand.o36"DDC89237-D083-4EB0-8CF5-24C568E2BB92-
+
+CCompileC build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/main.o /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s342418907.407587
+e342418907.536240
+r1
+xCompileC
+xbuild/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/main.o
+x/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/main.m6e4d6adbe568b441^404d89dbe568b441^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/main.m0000000000000000^2227"CompileC build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/main.o phonegap-videoplayer-plugin/main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DPHONEGAP_FRAMEWORK=YES -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -I/Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/phonegap-videoplayer-plugin.hmap -I/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/include -I/Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/DerivedSources/i386 -I/Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/DerivedSources -F/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator -F/Users/Shared/PhoneGap/Frameworks -include /var/folders/zx/_7yc7x7s7pg90vwyyg0q08pw0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/phonegap-videoplayer-plugin-Prefix-dupniqapajowpjfigsyzsoqmxjwt/phonegap-videoplayer-plugin-Prefix.pch -c /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/main.m -o /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/main.o36"C3DFC578-EEFE-4E04-A27A-EA1B7CF604EF-
+
+CCopyPlistFile /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/PhoneGap.plist phonegap-videoplayer-plugin/PhoneGap.plist
+s342418907.766703
+e342418907.808109
+r1
+xCopyPlistFile
+x/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/PhoneGap.plist
+xphonegap-videoplayer-plugin/PhoneGap.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy phonegap-videoplayer-plugin/PhoneGap.plist5854c4dbe568b441^d7dfcedbe568b441^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/PhoneGap.plist0000000000000000^652"CopyPlistFile build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/PhoneGap.plist phonegap-videoplayer-plugin/PhoneGap.plist    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    builtin-copyPlist --convert binary1 --outdir /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app -- phonegap-videoplayer-plugin/PhoneGap.plist36"393958C9-AB38-426D-91B3-0FFE2776694C-
+
+CCopyStringsFile /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/en.lproj/InfoPlist.strings phonegap-videoplayer-plugin/en.lproj/InfoPlist.strings
+s342418907.715567
+e342418907.760620
+r1
+xCopyStringsFile
+x/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/en.lproj/InfoPlist.strings
+xphonegap-videoplayer-plugin/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy phonegap-videoplayer-plugin/en.lproj/InfoPlist.strings0a48b7dbe568b441^c6c0c2dbe568b441^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/en.lproj/InfoPlist.strings0000000000000000^740"CopyStringsFile build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/en.lproj/InfoPlist.strings phonegap-videoplayer-plugin/en.lproj/InfoPlist.strings    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/en.lproj -- phonegap-videoplayer-plugin/en.lproj/InfoPlist.strings36"7FAF8A14-6475-4A69-BCAD-0DCDF1E3BE0E-
+
+CCopyStringsFile /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/en.lproj/Localizable.strings phonegap-videoplayer-plugin/Resources/en.lproj/Localizable.strings
+s342418907.715586
+e342418907.760760
+r1
+xCopyStringsFile
+x/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/en.lproj/Localizable.strings
+xphonegap-videoplayer-plugin/Resources/en.lproj/Localizable.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy phonegap-videoplayer-plugin/Resources/en.lproj/Localizable.strings2b4cb7dbe568b441^15c6c2dbe568b441^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Resources/en.lproj/Localizable.strings0000000000000000^766"CopyStringsFile build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/en.lproj/Localizable.strings phonegap-videoplayer-plugin/Resources/en.lproj/Localizable.strings    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/en.lproj -- phonegap-videoplayer-plugin/Resources/en.lproj/Localizable.strings36"25D6887D-356A-4A15-982D-3F16B5B0BF79-
+
+CCopyStringsFile /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/es.lproj/Localizable.strings phonegap-videoplayer-plugin/Resources/es.lproj/Localizable.strings
+s342418907.715780
+e342418907.760610
+r1
+xCopyStringsFile
+x/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/es.lproj/Localizable.strings
+xphonegap-videoplayer-plugin/Resources/es.lproj/Localizable.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy phonegap-videoplayer-plugin/Resources/es.lproj/Localizable.stringse84fb7dbe568b441^13b7c2dbe568b441^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Resources/es.lproj/Localizable.strings0000000000000000^766"CopyStringsFile build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/es.lproj/Localizable.strings phonegap-videoplayer-plugin/Resources/es.lproj/Localizable.strings    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/es.lproj -- phonegap-videoplayer-plugin/Resources/es.lproj/Localizable.strings36"9FB4E555-21D9-466A-AECF-72E6C819F851-
+
+CCpResource movie.mp4 build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/movie.mp4
+s342418907.769722
+e342418907.775839
+r1
+xCpResource
+xmovie.mp4
+xbuild/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/movie.mp4
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/movie.mp4931bc5dbe568b441^55a0c6dbe568b441^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/movie.mp400f4a0fedcffdf42^684"CpResource movie.mp4 build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/movie.mp4    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/eiffel/src/phonegap-videoplayer-plugin/movie.mp4 /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app36"42DA3E15-C46E-4EB5-B416-1911DF4F3AB6-
+
+CCpResource phonegap-videoplayer-plugin/Resources/Capture.bundle build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Capture.bundle
+s342418907.766492
+e342418907.771480
+r1
+xCpResource
+xphonegap-videoplayer-plugin/Resources/Capture.bundle
+xbuild/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Capture.bundle
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Capture.bundled846c4dbe568b441^1b80c5dbe568b441^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Capture.bundle00f4a0fedcffdf42^775"CpResource phonegap-videoplayer-plugin/Resources/Capture.bundle build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Capture.bundle    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Resources/Capture.bundle /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app36"A3FC4427-72C5-4501-B6A1-1FA86FDBD668-
+
+CCpResource phonegap-videoplayer-plugin/Resources/icons/icon-72.png build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon-72.png
+s342418907.762405
+e342418907.765502
+r1
+xCpResource
+xphonegap-videoplayer-plugin/Resources/icons/icon-72.png
+xbuild/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon-72.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon-72.png153ac3dbe568b441^55f8c3dbe568b441^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon-72.png00f4a0fedcffdf42^778"CpResource phonegap-videoplayer-plugin/Resources/icons/icon-72.png build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon-72.png    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Resources/icons/icon-72.png /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app36"4FC60917-A3A0-42DA-AF0A-51A355DCDA0F-
+
+CCpResource phonegap-videoplayer-plugin/Resources/icons/icon.png build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon.png
+s342418907.716966
+e342418907.760810
+r1
+xCpResource
+xphonegap-videoplayer-plugin/Resources/icons/icon.png
+xbuild/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon.png8ca0b9dbe568b441^6002bbdbe568b441^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon.png00f4a0fedcffdf42^769"CpResource phonegap-videoplayer-plugin/Resources/icons/icon.png build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon.png    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Resources/icons/icon.png /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app36"A6EF3B5B-CD82-4092-BC7E-3E269C6433F7-
+
+CCpResource phonegap-videoplayer-plugin/Resources/icons/icon@2x.png build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon@2x.png
+s342418907.761954
+e342418907.765243
+r1
+xCpResource
+xphonegap-videoplayer-plugin/Resources/icons/icon@2x.png
+xbuild/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon@2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon@2x.pngfb20c3dbe568b441^04e8c3dbe568b441^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon@2x.png00f4a0fedcffdf42^784"CpResource "phonegap-videoplayer-plugin/Resources/icons/icon@2x.png" "build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/icon@2x.png"    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Resources/icons/icon@2x.png" /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app36"99F0B0A2-E0F4-453A-A035-61F374F4F804-
+
+CCpResource phonegap-videoplayer-plugin/Resources/splash/Default.png build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Default.png
+s342418907.762409
+e342418907.766911
+r1
+xCpResource
+xphonegap-videoplayer-plugin/Resources/splash/Default.png
+xbuild/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Default.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Default.png473ac3dbe568b441^6954c4dbe568b441^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Default.png00f4a0fedcffdf42^780"CpResource phonegap-videoplayer-plugin/Resources/splash/Default.png build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Default.png    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Resources/splash/Default.png /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app36"3F01A81B-A193-444C-A97B-51DFCA5A93D1-
+
+CCpResource phonegap-videoplayer-plugin/Resources/splash/Default@2x.png build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Default@2x.png
+s342418907.762664
+e342418907.768590
+r1
+xCpResource
+xphonegap-videoplayer-plugin/Resources/splash/Default@2x.png
+xbuild/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Default@2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Default@2x.png6e4cc3dbe568b441^72c2c4dbe568b441^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Default@2x.png00f4a0fedcffdf42^795"CpResource "phonegap-videoplayer-plugin/Resources/splash/Default@2x.png" "build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Default@2x.png"    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/Resources/splash/Default@2x.png" /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app36"77D602DF-ECA2-4335-B80E-1BF73055760A-
+
+CCpResource www build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/www
+s342418907.768049
+e342418907.773083
+r1
+xCpResource
+xwww
+xbuild/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/www
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/www96b2c4dbe568b441^afe9c5dbe568b441^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/www00f4a0fedcffdf42^666"CpResource www build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/www    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/eiffel/src/phonegap-videoplayer-plugin/www /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app36"16DFF8F7-195E-48C5-8495-FDB9733AECF4-
+
+CGenerateDSYMFile /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app.dSYM /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/phonegap-videoplayer-plugin
+s342418907.817047
+e342418907.850710
+r1
+xGenerateDSYMFile
+x/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app.dSYM
+x/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/phonegap-videoplayer-plugin
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Generating /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app.dSYM3cd9d1dbe568b441^dec7d9dbe568b441^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app.dSYM/0000000000000000^769"GenerateDSYMFile build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app.dSYM build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/phonegap-videoplayer-plugin    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    /Developer/usr/bin/dsymutil /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/phonegap-videoplayer-plugin -o /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app.dSYM36"273F839A-18BF-43D5-9304-9554EB08D2E2-
+
+CLd /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/phonegap-videoplayer-plugin normal i386
+s342418907.592805
+e342418907.671389
+r1
+xLd
+x/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/phonegap-videoplayer-plugin
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Link /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/phonegap-videoplayer-plugin47e497dbe568b441^ace0abdbe568b441^---0#0#0#--1763"Ld build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/phonegap-videoplayer-plugin normal i386    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator -F/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator -F/Users/Shared/PhoneGap/Frameworks -filelist /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/phonegap-videoplayer-plugin.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak_library /usr/lib/libSystem.B.dylib -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -framework MediaPlayer -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -framework AVFoundation -framework CoreLocation -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -framework CoreMedia -framework PhoneGap -framework MediaPlayer -o /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/phonegap-videoplayer-plugin36"B7C37CE2-639C-4242-AAC3-C0B724A67AF9-
+
+CPhaseScriptExecution "Run Script" /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Script-C5FFCDDE1468D78B00EEC030.sh
+s342418907.859273
+e342418907.887924
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Script-C5FFCDDE1468D78B00EEC030.sh
+o		C5FFCE2D1468D81400EEC030 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'6edbdfdbe568b441^a54fe3dbe568b441^-131"		C5FFCE2D1468D81400EEC030 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };1(21%IDEActivityLogMessage2@131"		C5FFCE2D1468D81400EEC030 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };-342418907#0#131#-0#-----0#0#0#--20146"PhaseScriptExecution "Run Script" build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Script-C5FFCDDE1468D78B00EEC030.sh    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER eiffel    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build    setenv BUILD_ROOT /Users/eiffel/src/phonegap-videoplayer-plugin/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/zx/_7yc7x7s7pg90vwyyg0q08pw0000gp/C/com.apple.Xcode.502    setenv CCHROOT /var/folders/zx/_7yc7x7s7pg90vwyyg0q08pw0000gp/C/com.apple.Xcode.502    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/zx/_7yc7x7s7pg90vwyyg0q08pw0000gp/C/com.apple.Xcode.502/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH phonegap-videoplayer-plugin.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH phonegap-videoplayer-plugin.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/phonegap-videoplayer-plugin.dst    setenv DWARF_DSYM_FILE_NAME phonegap-videoplayer-plugin.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH phonegap-videoplayer-plugin.app/Executables    setenv EXECUTABLE_FOLDER_PATH phonegap-videoplayer-plugin.app    setenv EXECUTABLE_NAME phonegap-videoplayer-plugin    setenv EXECUTABLE_PATH phonegap-videoplayer-plugin.app/phonegap-videoplayer-plugin    setenv FILE_LIST /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH phonegap-videoplayer-plugin.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator\" /Users/Shared/PhoneGap/Frameworks"    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME phonegap-videoplayer-plugin.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER phonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS PHONEGAP_FRAMEWORK=YES    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvmgcc42    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvmgcc42    setenv GCC_WARN_ABOUT_MISSING_PROTOTYPES YES    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE phonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH phonegap-videoplayer-plugin.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH phonegap-videoplayer-plugin.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/phonegap-videoplayer-plugin.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER eiffel    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/phonegap-videoplayer-plugin.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH phonegap-videoplayer-plugin.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/phonegap-videoplayer-plugin-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEGACY_DEVELOPER_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal/i386/phonegap-videoplayer-plugin.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH phonegap-videoplayer-plugin.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11C74    setenv MAC_OS_X_VERSION_ACTUAL 1072    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0702    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Objects-normal    setenv OBJROOT /Users/eiffel/src/phonegap-videoplayer-plugin/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak_library /usr/lib/libSystem.B.dylib"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH phonegap-videoplayer-plugin.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/PkgInfo    setenv PKGINFO_PATH phonegap-videoplayer-plugin.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 9A334    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 50000    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH phonegap-videoplayer-plugin.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH phonegap-videoplayer-plugin.app/PrivateHeaders    setenv PRODUCT_NAME phonegap-videoplayer-plugin    setenv PRODUCT_SETTINGS_PATH /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT phonegap-videoplayer-plugin    setenv PROJECT_DERIVED_FILE_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/DerivedSources    setenv PROJECT_DIR /Users/eiffel/src/phonegap-videoplayer-plugin    setenv PROJECT_FILE_PATH /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin.xcodeproj    setenv PROJECT_NAME phonegap-videoplayer-plugin    setenv PROJECT_TEMP_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build    setenv PUBLIC_HEADERS_FOLDER_PATH phonegap-videoplayer-plugin.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH phonegap-videoplayer-plugin.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk    setenv SDK_NAME iphonesimulator5.0    setenv SDK_PRODUCT_BUILD_VERSION 9A334    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH phonegap-videoplayer-plugin.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/zx/_7yc7x7s7pg90vwyyg0q08pw0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH phonegap-videoplayer-plugin.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/eiffel/src/phonegap-videoplayer-plugin    setenv SRCROOT /Users/eiffel/src/phonegap-videoplayer-plugin    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/eiffel/src/phonegap-videoplayer-plugin/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME phonegap-videoplayer-plugin    setenv TARGET_BUILD_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator    setenv TARGET_NAME phonegap-videoplayer-plugin    setenv TARGET_TEMP_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build    setenv TEMP_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build    setenv TEMP_FILES_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build    setenv TEMP_FILE_DIR /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build    setenv TEMP_ROOT /Users/eiffel/src/phonegap-videoplayer-plugin/build    setenv TEST_AFTER_BUILD NO    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH phonegap-videoplayer-plugin.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER eiffel    setenv USER_APPS_DIR /Users/eiffel/Applications    setenv USER_LIBRARY_DIR /Users/eiffel/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH phonegap-videoplayer-plugin.app/version.plist    setenv VERSION_INFO_BUILDER eiffel    setenv VERSION_INFO_FILE phonegap-videoplayer-plugin_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:phonegap-videoplayer-plugin  PROJECT:phonegap-videoplayer-plugin-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME phonegap-videoplayer-plugin.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4D199    setenv XCODE_VERSION_ACTUAL 0420    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0420    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/Script-C5FFCDDE1468D78B00EEC030.sh36"73C894C7-23CE-4E80-8F80-D3DF040A481B-
+
+CProcessInfoPlistFile /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Info.plist phonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Info.plist
+s342418906.515249
+e342418906.519316
+r1
+xProcessInfoPlistFile
+x/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Info.plist
+xphonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Process phonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Info.plistdbf883dae568b441^f5f184dae568b441^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Info.plist0000000000000000^882"ProcessInfoPlistFile build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Info.plist phonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Info.plist    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    builtin-infoPlistUtility phonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Info.plist -genpkginfo /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app/Info.plist36"4241F11F-C527-4FB0-9BEF-0F3C12FC5E13-
+
+CProcessPCH /Users/eiffel/Library/Developer/Xcode/DerivedData/phonegap-videoplayer-plugin-gcnwozizouzxvmcvabmjkxsojtnb/Index/PrecompiledHeaders/phonegap-videoplayer-plugin-Prefix-avfseehsjwznbsekeqfuczhhoqdy_ast/phonegap-videoplayer-plugin-Prefix.pch.pth phonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/zx/_7yc7x7s7pg90vwyyg0q08pw0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/phonegap-videoplayer-plugin-Prefix-dupniqapajowpjfigsyzsoqmxjwt/phonegap-videoplayer-plugin-Prefix.pch.gch phonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s342418906.533951
+e342418907.399340
+r1
+xProcessPCH
+x/var/folders/zx/_7yc7x7s7pg90vwyyg0q08pw0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/phonegap-videoplayer-plugin-Prefix-dupniqapajowpjfigsyzsoqmxjwt/phonegap-videoplayer-plugin-Prefix.pch.gch
+xphonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Precompile phonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Prefix.pcha9dc88dae568b441^8a3b66dbe568b441^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Prefix.pch0000000000000000^2204"ProcessPCH /var/folders/zx/_7yc7x7s7pg90vwyyg0q08pw0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/phonegap-videoplayer-plugin-Prefix-dupniqapajowpjfigsyzsoqmxjwt/phonegap-videoplayer-plugin-Prefix.pch.gch phonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DPHONEGAP_FRAMEWORK=YES -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -I/Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/phonegap-videoplayer-plugin.hmap -I/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/include -I/Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/DerivedSources/i386 -I/Users/eiffel/src/phonegap-videoplayer-plugin/build/phonegap-videoplayer-plugin.build/Debug-iphonesimulator/phonegap-videoplayer-plugin.build/DerivedSources -F/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator -F/Users/Shared/PhoneGap/Frameworks -c /Users/eiffel/src/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin/phonegap-videoplayer-plugin-Prefix.pch -o /var/folders/zx/_7yc7x7s7pg90vwyyg0q08pw0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/phonegap-videoplayer-plugin-Prefix-dupniqapajowpjfigsyzsoqmxjwt/phonegap-videoplayer-plugin-Prefix.pch.gch36"0A0216C2-F0B0-4A9B-87A3-8ED0292F80E7-
+
+CTouch /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app
+s342418907.898580
+e342418907.916173
+r1
+xTouch
+x/Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Touch /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.appe78de7dbe568b441^5856eadbe568b441^---0#0#0#--513"Touch build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app    cd /Users/eiffel/src/phonegap-videoplayer-plugin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:~/bin:/usr/local/Cellar/git/1.7.3.2/bin:/Users/eiffel/.rvm/rubies/ruby-1.9.2-p0/bin:/usr/bin:/Applications/Emacs.app/Contents/MacOS:/usr/local/sbin:~/zend/bin:$PATH"    /usr/bin/touch -c /Users/eiffel/src/phonegap-videoplayer-plugin/build/Debug-iphonesimulator/phonegap-videoplayer-plugin.app36"D9BB6123-DE31-4063-9BCD-51FD643087C0-
+
