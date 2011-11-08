@@ -56,12 +56,15 @@
 //		navigator.notification.alert("PhoneGap is working")
         }
 
-        function videoplayerCallBack(param) {
-            if (param == 'finish') 
-//                navigator.notification.alert(param);
-                $('#status').html("finish");
-            else
-                $('#status').html("stop");
+        function videoplayerCallBack(param) {       
+            if (param == 'finish') {
+                $('#status').html("finish playing");
+                navigator.notification.alert("finish playing");
+            }
+            else {
+                $('#status').html("stop playing");
+                navigator.notification.alert("stop playing");
+            }
         }
 
         function showVideo(movieName) {

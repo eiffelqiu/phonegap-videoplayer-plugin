@@ -35,7 +35,6 @@
 		C5FFCE251468D78B00EEC030 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FFCE241468D78B00EEC030 /* AppDelegate.m */; };
 		C5FFCE2E1468D81400EEC030 /* www in Resources */ = {isa = PBXBuildFile; fileRef = C5FFCE2D1468D81400EEC030 /* www */; };
 		C5FFCE301468D93D00EEC030 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FFCE2F1468D93D00EEC030 /* MediaPlayer.framework */; };
-		C5FFCE371468D96A00EEC030 /* VideoPlayer.js in Sources */ = {isa = PBXBuildFile; fileRef = C5FFCE341468D96A00EEC030 /* VideoPlayer.js */; };
 		C5FFCE381468D96A00EEC030 /* VideoPlayerCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FFCE361468D96A00EEC030 /* VideoPlayerCommand.m */; };
 		C5FFCE3A1468E33D00EEC030 /* movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C5FFCE391468E33D00EEC030 /* movie.mp4 */; };
 /* End PBXBuildFile section */
@@ -347,7 +346,6 @@
 			files = (
 				C5FFCE051468D78B00EEC030 /* main.m in Sources */,
 				C5FFCE251468D78B00EEC030 /* AppDelegate.m in Sources */,
-				C5FFCE371468D96A00EEC030 /* VideoPlayer.js in Sources */,
 				C5FFCE381468D96A00EEC030 /* VideoPlayerCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
