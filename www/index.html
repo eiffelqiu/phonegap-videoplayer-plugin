@@ -12,91 +12,20 @@
      -->
     <!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js from http://www.JSON.org/json2.js into your www directory and include it here -->
 
-    <style type="text/css" media="screen">@import "jqtouch/jqtouch.css";</style>
-    <style type="text/css" media="screen">@import "themes/jqt/theme.css";</style>
-    <script src="jqtouch/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="jqtouch/jqtouch.js" type="application/x-javascript" charset="utf-8"></script>
-    <script type="text/javascript" charset="utf-8" src="js/spine.js"></script>
-    <script type="text/javascript" charset="utf-8" src="js/phonegap-1.1.0.js"></script>
-    <script type="text/javascript" charset="utf-8" src="js/VideoPlayer.js"></script>
-
-    <script type="text/javascript">
-
-
-        // If you want to prevent dragging, uncomment this section
-        /*
-         function preventBehavior(e)
-         {
-         e.preventDefault();
-         };
-         document.addEventListener("touchmove", preventBehavior, false);
-         */
-
-        /* If you are supporting your own protocol, the var invokeString will contain any arguments to the app launch.
-         see http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
-         for more details -jm */
-        /*
-         function handleOpenURL(url)
-         {
-         // TODO: do something with the url passed in.
-         }
-         */
-        var vp;
-        function onBodyLoad() {
-            document.addEventListener("deviceready", onDeviceReady, false);
-        }
-
-        /* When this function is called, PhoneGap has been initialized and is ready to roll */
-        /* If you are supporting your own protocol, the var invokeString will contain any arguments to the app launch.
-         see http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
-         for more details -jm */
-         
-        // Step 1:  initialize plugin !
-        function onDeviceReady() {
-            vp = window.plugins.videoPlayer;
-        }
-        
-        // Step 2: prepare Callback function
-        // Callback function should be: pluginname + CallBack
-        function videoplayerCallBack(param) {
-            if (param == 'finish') {
-                $('#status').html("finish playing");
-                navigator.notification.alert("finish");
-            }
-        }
-
-        // Step 3: utility wrap function use by this page
-        function showVideo(movieName) {
-            vp.show(movieName);
-        }
-
-    </script>
-    <script type="text/javascript" charset="utf-8">
-        var jQT = new $.jQTouch({
-            icon:'jqtouch.png',
-            addGlossToIcon:false,
-            startupScreen:'jqt_startup.png',
-            statusBar:'black'
-        });
-
-        $(function() {
-            // Custom Javascript (onReady)
-            // Step 4: binding utilty function to html element
-            $('#play1').click(function($) {
-                navigator.orientation.setOrientation('left');
-                showVideo('movie.mp4');
-            });
-            $('#play2').click(function($) {
-                navigator.orientation.setOrientation('left');
-                showVideo('http://easyhtml5video.com/images/happyfit2.mp4');
-            });
-        });
-    </script>
-    <style type="text/css" media="screen">
-            /* Custom Style */
-    </style>
+    <style type="text/css" media="screen">@import "js/lib/jqtouch/jqtouch.css";</style>
+    <style type="text/css" media="screen">@import "css/themes/jqt/theme.css";</style>
+    <style type="text/css" media="screen">@import "css/main.css";</style>    
+    
+    <script src="js/lib/jqtouch/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/lib/jqtouch/jqtouch.js" type="application/x-javascript" charset="utf-8"></script>
+    <script src="js/lib/spine.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/lib/phonegap-1.1.0.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/lib/pg-plugins/VideoPlayer.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/app/main.js" type="text/javascript" charset="utf-8"></script>
 </head>
-<body onload="onBodyLoad()">
+
+<body>
+  
 <div id="jqt">
     <div id="start">
         <div class="toolbar">
