@@ -17,10 +17,11 @@
 #endif
 
 #import <PhoneGap/PGPlugin.h> 
-#import "MediaPlayer/MPMoviePlayerController.h"
+#import "MediaPlayer/MPMoviePlayerViewController.h"
+#import "MovieViewController.h"
 
 @interface VideoPlayerCommand : PGPlugin {
-    MPMoviePlayerController *player;
+    MPMoviePlayerViewController *player;
 }
 
 - (void)show:(NSMutableArray *)arguments withDict:(NSMutableDictionary *)options;

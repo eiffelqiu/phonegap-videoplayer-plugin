@@ -61,10 +61,7 @@
         function videoplayerCallBack(param) {
             if (param == 'finish') {
                 $('#status').html("finish playing");
-            }
-            else {
-                $('#status').html("stop playing");
-                navigator.notification.alert("you abort playing");
+                navigator.notification.alert("finish");
             }
         }
 
