@@ -24,22 +24,29 @@
 
 - (void)show:(NSMutableArray *)arguments withDict:(NSMutableDictionary *)options {
     NSString *movie = [arguments objectAtIndex:0];
+    NSString *orient = [arguments objectAtIndex:1];
     NSRange range = [movie rangeOfString:@"http"];
     if(range.length > 0) {
-        NSLog(@"%@",movie);
-        player = [[MovieViewController alloc] initWithContentURL:[NSURL URLWithString:movie]];        
+        if ([@"YES" isEqualToString:orient]) {
+            player = [[MovieViewController alloc] initWithContentURL:[NSURL URLWithString:movie] andOrientation:YES];
+        } else {
+            player = [[MovieViewController alloc] initWithContentURL:[NSURL URLWithString:movie] andOrientation:NO];
+        }
+         
     } else {
         NSArray *fileNameArr = [movie componentsSeparatedByString:@"."];
         NSString *prefix = [fileNameArr objectAtIndex:0];
         NSString *suffix = [fileNameArr objectAtIndex:1];
         NSString *soundFilePath = [[NSBundle mainBundle] pathForResource:prefix ofType:suffix];
         NSURL *fileURL = [NSURL fileURLWithPath:soundFilePath];
-        player = [[MovieViewController alloc] initWithContentURL:fileURL];        
+        if ([@"YES" isEqualToString:orient]) {
+            player = [[MovieViewController alloc] initWithContentURL:fileURL andOrientation:YES];
+        } else {
+            player = [[MovieViewController alloc] initWithContentURL:fileURL andOrientation:NO]; 
+        }        
     }
-
     if (player) {
         PhoneGapViewController *cont = (PhoneGapViewController *) [super appViewController];
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(MovieDidExit:) name:MPMoviePlayerDidExitFullscreenNotification object:nil];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(MovieDidFinish:) name:MPMoviePlayerPlaybackDidFinishNotification object:nil];
         [cont presentMoviePlayerViewControllerAnimated:player];
     }

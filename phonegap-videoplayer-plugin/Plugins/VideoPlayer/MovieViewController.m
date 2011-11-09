@@ -9,11 +9,23 @@
 #import "MovieViewController.h"
 
 @implementation MovieViewController
+@synthesize orientation=_orientation;
+
+- (id)initWithContentURL:(NSURL *)url andOrientation:(BOOL)orientation
+{
+    self.orientation = orientation;
+    return [[[[self class] alloc] initWithContentURL:url] autorelease];
+}
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+    NSLog(@"[%d]", self.orientation);
+    if (self.orientation) {
+        return UIInterfaceOrientationIsPortrait(interfaceOrientation);
+    } else {
+       return UIInterfaceOrientationIsLandscape(interfaceOrientation); 
+    }
 }
 
 @end

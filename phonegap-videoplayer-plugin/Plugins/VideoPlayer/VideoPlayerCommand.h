@@ -21,7 +21,7 @@
 #import "MovieViewController.h"
 
 @interface VideoPlayerCommand : PGPlugin {
-    MPMoviePlayerViewController *player;
+    MovieViewController *player;
 }
 
 - (void)show:(NSMutableArray *)arguments withDict:(NSMutableDictionary *)options;

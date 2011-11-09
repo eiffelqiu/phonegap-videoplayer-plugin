@@ -10,7 +10,11 @@
 #import "MediaPlayer/MPMoviePlayerViewController.h"
 
 @interface MovieViewController : MPMoviePlayerViewController {
-    
+    BOOL _orientation;
 }
+
+@property(nonatomic) BOOL orientation;
+
+- (id)initWithContentURL:(NSURL *)url andOrientation:(BOOL)orientation;
 
 @end
