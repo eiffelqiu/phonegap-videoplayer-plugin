@@ -37,4 +37,13 @@ $(function() {
     $('#play2').bind("click", function(event) {
         play('http://easyhtml5video.com/images/happyfit2.mp4', 'YES');
     });
+
+    var app = $.sammy(function() {
+        this.use(Sammy.EJS);
+    });
+
+    $(function() {
+        app.run('#/');
+    });
+
 });
