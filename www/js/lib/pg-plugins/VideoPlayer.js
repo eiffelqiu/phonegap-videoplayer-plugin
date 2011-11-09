@@ -1,17 +1,14 @@
-function VideoPlayer()
-{
+function VideoPlayer() {
+}
+;
+
+VideoPlayer.prototype.show = function(message,mode) {
+    PhoneGap.exec('VideoPlayerCommand.show', message,mode);
 };
 
-VideoPlayer.prototype.show = function(message)
-{
-    PhoneGap.exec('VideoPlayerCommand.show', message);
-};
-
-VideoPlayer.install = function()
-{
-    if(!window.plugins)
-    {
-        window.plugins = {};	
+VideoPlayer.install = function() {
+    if (!window.plugins) {
+        window.plugins = {};
     }
     
     window.plugins.videoPlayer = new VideoPlayer();

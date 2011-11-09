@@ -14,8 +14,8 @@ function videoplayerCallBack(param) { // Callback function should be: pluginname
 }
 
 // Step 3: utility wrap function use by this page
-function showVideo(movieName) {
-    vp.show(movieName);
+function showVideo(movieName,portrait) {
+    vp.show(movieName,portrait);
 }
 
 var jQT = new $.jQTouch({
@@ -30,9 +30,9 @@ $(function() {
 
     // Step 4: binding utilty function to html element
     $('#play1').click(function($) {
-        showVideo('movie.mp4');
+        showVideo('movie.mp4','NO');
     });
     $('#play2').click(function($) {
-        showVideo('http://easyhtml5video.com/images/happyfit2.mp4');
+        showVideo('http://easyhtml5video.com/images/happyfit2.mp4','YES');
     });
 });
