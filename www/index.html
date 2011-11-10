@@ -6,12 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;"/>
     <meta charset="utf-8">
 
-    <!-- iPad/iPhone specific css below, add after your main css >
-     <link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="ipad.css" type="text/css" />
-     <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="iphone.css" type="text/css" />
-     -->
-    <!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js from http://www.JSON.org/json2.js into your www directory and include it here -->
-
     <style type="text/css" media="screen">@import "js/lib/jqtouch/jqtouch.css";</style>
     <style type="text/css" media="screen">@import "css/themes/jqt/theme.css";</style>
     <style type="text/css" media="screen">@import "css/main.css";</style>
@@ -19,12 +13,12 @@
     <script src="js/lib/LAB.min.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript">
         $LAB.script("js/lib/jqtouch/jquery-1.4.2.min.js").wait()
-            .script("js/lib/jqtouch/jqtouch.js")
-            .script("js/lib/phonegap-1.1.0.js").wait()
-            .script("js/lib/pg-plugins/VideoPlayer.js")
-            .script("js/lib/sammy/sammy-0.7.0.min.js").wait()
-            .script("js/lib/sammy/plugins/sammy.ejs-0.7.0.min.js")
-            .script("js/app/main.js")
+        .script("js/lib/jqtouch/jqtouch.js")
+        .script("js/lib/phonegap-1.1.0.js")
+        .script("js/lib/sammy/sammy.min.js")
+        .script("js/lib/sammy/plugins/sammy.ejs.min.js")
+        .script("js/lib/pg-plugins/VideoPlayer.js")
+        .script("js/app/main.js")
     </script>
 </head>
 
@@ -45,6 +39,11 @@
                 <small class="counter">1</small>
             </li>
         </ul>
+        <ul class="rounded">
+            <li><a href="#/info">info</a>
+                <small class="counter">3</small>
+            </li>
+        </ul>
     </div>
     <div id="video1" class="notransform">
         <div class="toolbar">
@@ -53,7 +52,7 @@
         </div>
         <ul class="rounded">
             <li>
-                <a id="play1">play</a>
+                <a href="#/play1">play</a>
             </li>
         </ul>
     </div>
@@ -64,7 +63,7 @@
         </div>
         <ul class="rounded">
             <li>
-                <a id="play2">play</a>
+                <a href="#/play2">play</a>
             </li>
         </ul>
     </div>

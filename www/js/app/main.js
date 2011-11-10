@@ -6,7 +6,6 @@ var jQT = new $.jQTouch({
     statusBar:'black'
 });
 
-// app customize code
 $(function() {
 
     // video plugin definition
@@ -30,16 +29,20 @@ $(function() {
         vp.show(movieName, portrait);
     };
 
-    // Step 4: binding utilty function to html element
-    $('#play1').bind("click", function(event) {
-        play('movie.mp4', 'YES');
-    });
-    $('#play2').bind("click", function(event) {
-        play('http://easyhtml5video.com/images/happyfit2.mp4', 'YES');
-    });
-
+    // Step 4: define route action
     var app = $.sammy(function() {
-        this.use(Sammy.EJS);
+
+        this.get('#/info', function() {
+            navigator.notification.alert("you click info");
+        });
+
+        this.get('#/play1', function() {
+            play('movie.mp4', 'YES'); // 'YES' for portrait display video
+        });
+
+        this.get('#/play2', function() {
+            play('http://easyhtml5video.com/images/happyfit2.mp4', 'NO'); // 'NO' for landscape display video
+        });
     });
 
     $(function() {
