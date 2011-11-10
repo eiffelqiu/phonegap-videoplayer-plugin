@@ -13,17 +13,23 @@
     <script src="js/lib/LAB.min.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript">
         $LAB.script("js/lib/jqtouch/jquery-1.4.2.min.js").wait()
-        .script("js/lib/jqtouch/jqtouch.js")
-        .script("js/lib/phonegap-1.1.0.js")
-        .script("js/lib/sammy/sammy.min.js")
-        .script("js/lib/sammy/plugins/sammy.ejs.min.js")
-        .script("js/lib/pg-plugins/VideoPlayer.js")
-        .script("js/app/main.js")
+                .script("js/lib/jquery.tmpl.min.js")
+                .script("js/lib/jqtouch/jqtouch.js")
+                .script("js/lib/phonegap-1.1.0.js")
+                .script("js/lib/sammy/sammy.min.js")
+                .script("js/lib/pg-plugins/VideoPlayer.js")
+                .script("js/app/main.js")
     </script>
 </head>
 
 <body>
 
+<!-- application templates -->
+<script type="text/x-jquery-tmpl" id="infoTemplate">
+    <span>${getInfo()}</span>
+</script>
+
+<!-- application UI interface -->
 <div id="jqt">
     <div id="start">
         <div class="toolbar">
@@ -40,10 +46,11 @@
             </li>
         </ul>
         <ul class="rounded">
-            <li><a href="#/info">info</a>
+            <li><a href="#/info"><span id="test">info</span></a>
                 <small class="counter">3</small>
             </li>
         </ul>
+
     </div>
     <div id="video1" class="notransform">
         <div class="toolbar">

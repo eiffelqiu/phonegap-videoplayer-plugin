@@ -1,4 +1,4 @@
-// global app setting
+// global application setting
 var jQT = new $.jQTouch({
     icon:'img/jqtouch.png',
     addGlossToIcon:false,
@@ -16,7 +16,7 @@ $(function() {
         vp = window.plugins.videoPlayer;
     });
 
-    // Step 2: prepare Callback function
+    // Step 2: prepare callback function
     var videoplayerCallBack = function(param) { // Callback function should be: pluginname + CallBack
         if (param == 'finish') {
             $('#status').html("finish playing");
@@ -24,24 +24,34 @@ $(function() {
         }
     };
 
-    // Step 3: utility wrap function use by this page
-    var play = function(movieName, portrait) {
-        vp.show(movieName, portrait);
+    var helper = {
+        // Step 3: utility wrap function used by this page
+        play:function(movieName, portrait) {
+            vp.show(movieName, portrait);
+        }
     };
 
-    // Step 4: define route action
+    // Step 4: application logic
     var app = $.sammy(function() {
+        this.use(Sammy.Tmpl);
 
         this.get('#/info', function() {
-            navigator.notification.alert("you click info");
+            var data = {
+                getInfo:function() {
+                    return " about eiffel qiu"
+                }
+            };
+            $("#someTemplate").tmpl(data).appendTo('#test');
         });
 
         this.get('#/play1', function() {
-            play('movie.mp4', 'YES'); // 'YES' for portrait display video
+            // 'YES' for portrait display video
+            helper.play('movie.mp4', 'YES');
         });
 
         this.get('#/play2', function() {
-            play('http://easyhtml5video.com/images/happyfit2.mp4', 'NO'); // 'NO' for landscape display video
+            // 'NO' for landscape display video
+            helper.play('http://easyhtml5video.com/images/happyfit2.mp4', 'NO');
         });
     });
 
