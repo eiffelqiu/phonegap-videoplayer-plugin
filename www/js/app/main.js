@@ -41,7 +41,7 @@ $(function() {
                     return " about eiffel qiu"
                 }
             };
-            $("#someTemplate").tmpl(data).appendTo('#test');
+            $("#infoTemplate").tmpl(data).appendTo('#test');
         });
 
         this.get('#/play1', function() {
