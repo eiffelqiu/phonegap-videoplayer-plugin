@@ -38,10 +38,10 @@ $(function() {
         this.get('#/info', function() {
             var data = {
                 getInfo:function() {
-                    return " about eiffel qiu"
+                    return "eiffel qiu"
                 }
             };
-            $("#infoTemplate").tmpl(data).appendTo('#test');
+            $("#info").html("").append($("#info-template").tmpl(data));
         });
 
         this.get('#/play1', function() {
