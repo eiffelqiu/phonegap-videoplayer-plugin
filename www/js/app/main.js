@@ -11,13 +11,13 @@ $(function() {
     // video plugin definition
     var vp;
 
-    // Step 1:  initialize plugin
+    // Step 1:  initialize plugins
     $(document).bind("deviceready", function() {
         vp = window.plugins.videoPlayer;
     });
 
-    // Step 2: prepare callback function
-    var videoplayerCallBack = function(param) { // Callback function should be: pluginname + CallBack
+    // Step 2: prepare callback function for videoplugin
+    var videoplayerCallBack = function(param) { // callback function should be: pluginname + CallBack
         if (param == 'finish') {
             $('#status').html("finish playing");
             navigator.notification.alert("finish");
@@ -26,8 +26,20 @@ $(function() {
 
     var helper = {
         // Step 3: utility wrap function used by this page
-        play:function(movieName, portrait) {
-            vp.show(movieName, portrait);
+
+        // play video helper function
+        play:function(movie, portrait) {
+            vp.show(movie, portrait);
+        },
+
+        // info helper function
+        info:function() {
+            var data = {
+                getInfo:function() {
+                    return "eiffel qiu"
+                }
+            };
+            $("#info").html("").append($("#info-template").tmpl(data));
         }
     };
 
@@ -36,22 +48,15 @@ $(function() {
         this.use(Sammy.Tmpl);
 
         this.get('#/info', function() {
-            var data = {
-                getInfo:function() {
-                    return "eiffel qiu"
-                }
-            };
-            $("#info").html("").append($("#info-template").tmpl(data));
+            helper.info();
         });
 
         this.get('#/play1', function() {
-            // 'YES' for portrait display video
-            helper.play('movie.mp4', 'YES');
+            helper.play('movie.mp4', 'YES'); // 'YES' for portrait video
         });
 
         this.get('#/play2', function() {
-            // 'NO' for landscape display video
-            helper.play('http://easyhtml5video.com/images/happyfit2.mp4', 'NO');
+            helper.play('http://easyhtml5video.com/images/happyfit2.mp4', 'NO'); // 'NO' for landscape video
         });
     });
 
