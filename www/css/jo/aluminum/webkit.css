@@ -1,0 +1,55 @@
+jostack {
+	-webkit-transition: opacity .3s ease-out;
+	-moz-transition: opacity .3s ease-out;
+	-o-transition: opacity .3s ease-out;
+}
+
+jostack > * {
+	-webkit-transform-origin: 50% 100% 0;
+	-webkit-transform: rotateZ(0);
+	-webkit-transition: -webkit-transform .3s ease-out, outline .3s ease-out;
+
+	-moz-transform-origin: 50% 200% 0;
+	-moz-transform: rotateZ(0) translateZ(0);
+	-moz-transition: -moz-transform .3s ease-out;
+
+	-o-transform-origin: 50% 200% 0;
+	-o-transform: rotateZ(0);
+	-o-transition: -o-transform .3s ease-out;
+
+/*	outline: 1px solid transparent; */
+}
+
+jostack > .next {
+	z-index: -1;
+	position: absolute;
+	top: 0;
+
+	-webkit-transform: rotateZ(45deg) translateY(-10%) translateX(100%);
+	-moz-transform: rotateZ(45deg);
+	-o-transform: rotateZ(45deg);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+	
+/*	outline: 1px solid #000; */
+}
+
+jostack > .prev {
+	z-index: 1;
+	position: absolute;
+	top: 0;
+
+	-webkit-transform: rotateZ(-45deg) translateY(10%) translateX(-100%);
+	-moz-transform: rotateZ(-45deg);
+	-o-transform: rotateZ(-45deg);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+
+/*	outline: 1px solid #000; */
+}
+
+* {
+   -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+jobutton {
+	background-repeat: repeat-x;
+}
